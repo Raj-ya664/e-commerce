@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="logo">
+            <h1>ShopMart</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main id="main-content">
+        <section id="hero">
+            <h2>Welcome to ShopMart!</h2>
+            <p>Your one-stop shop for all things great!</p>
+            <button onclick="addItemToCart()">Add Item to Cart</button>
+        </section>
+
+        <section id="product-list">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.xerjw0aAmX_x0cfevcm2iwHaDr&pid=Api&P=0&h=180" alt="Product 1">
+                <p>Product 1</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://tse3.mm.bing.net/th?id=OIF.juT4s7aUo1L8ZUiIr09OUw&pid=Api&P=0&h=180" alt="Product 2">
+                <p>Product 2</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.FR9--6WCqidF_-TncVaSkgAAAA&pid=Api&P=0&h=180" alt="Product 3">
+                <p>Product 3</p>
+                <button>Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 ShopMart. All rights reserved.</p>
+            <p><a href="#terms">Terms of Service</a> | <a href="#privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
